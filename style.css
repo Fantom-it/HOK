@@ -1,4 +1,4 @@
-/* page-1 0101010101101010101010101010101011010101010101010101010001011011101010100110101101001011110101010101101111101010101011110110110101110101110 */  
+ /* page-1 0101010101101010101010101010101011010101010101010101010001011011101010100110101101001011110101010101101111101010101011110110110101110101110 */  
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
 body {
     background: #F5F5F5;
@@ -26,6 +26,7 @@ body {
 .page-1__content__text-tel-num,
 .page-1__content__text-password {
     font-size: 16px;
+    font-family: 'Roboto';
     font-weight: 500;
     margin: 0;
     margin-top: 20px;
@@ -99,7 +100,8 @@ body {
 
 /* PHONE NUMBER CMS */
 
-.div-ph-num-sms {
+.div-ph-num-sms,
+.suc-pass-change {
     display: flex;
     width: 480px;
     height: 425px;
@@ -107,19 +109,33 @@ body {
     background: #fff;
     margin: 0 auto;
 }
-.div-ph-num-sms__content {
+.suc-pass-change {
+    width: 503px;
+}
+.div-ph-num-sms__content,
+.suc-pass-change__content {
     position: absolute;
     width: 280px;
     margin-left: 100px;
     margin-top: 70px;
 }
-
+.suc-pass-change__content {
+    width: 303px;
+}
 .div-ph-num-sms__main-text {
     font-size: 36px;
     font-weight: 700;
     font-family: 'Roboto';
     color: #42505C;
     text-align: center;
+    margin: 0;
+}
+
+.div-password-change__main-text {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #42505C;
     margin: 0;
 }
 .div-ph-num-sms__content__min-text {
@@ -144,7 +160,8 @@ body {
     color: #000;
     opacity: 0.4;
 }
-.div-ph-num-sms__content__buttom-confirm {
+.div-ph-num-sms__content__buttom-confirm,
+.suc-pass-change__content__button-log {
     display: flex;
     width: 100%;
     height: 53px;
@@ -152,7 +169,13 @@ body {
     border-radius: 5px;
     margin-top: 20px;
 }
-.div-ph-num-sms__content__buttom-confirm__text {
+.suc-pass-change__content__button-log {
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.div-ph-num-sms__content__buttom-confirm__text,
+.suc-pass-change__content__button-log__text {
     color: #fff;
     font-size: 18px;
     font-weight: 700;
@@ -166,4 +189,28 @@ body {
     margin-left: auto;
     margin-top: 20px;
     margin-right: 20px;
+}
+.suc-pass-change__content__check-mark {
+    width: 99px;
+    height: 99px;
+    background: url(img/Check-mark.svg);
+    margin: 0 auto;
+}
+.suc-pass-change__content__main-text {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    line-height: 25.78px;
+    color: #42505C;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+.suc-pass-change__content__text-2 {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    text-align: center;
 }
