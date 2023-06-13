@@ -1,0 +1,169 @@
+/* page-1 0101010101101010101010101010101011010101010101010101010001011011101010100110101101001011110101010101101111101010101011110110110101110101110 */  
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+body {
+    background: #F5F5F5;
+    
+}
+.page-1 {
+    display: flex;
+    width: 1279px;
+    height: 720px;
+    background: #fff;
+    margin: 0 auto;
+}
+.page-1__content {
+    width: 280px;
+    margin: auto;
+    font-family: 'Roboto';
+}
+.page-1__content__text-registration {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    color: #42505C;
+}
+.page-1__content__text-name,
+.page-1__content__text-tel-num,
+.page-1__content__text-password {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 20px;
+}
+.page-1__content__name-input,
+.page-1__content__tele-num-input,
+.page-1__content__password-input {
+    color: #D1D1D1;
+    color: #000000;
+    opacity: 0.4;
+    width: 100%;
+    padding: 0;
+    padding: 11px 20px 11px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.page-1__content__password-input:focus{
+    color: rgb(0, 0, 0);
+    border: 1px solid #c5c2c2;
+}
+.page-1__content__button-create-akk {
+    display: flex;
+    width: 100%;
+    height: 53px;
+    background: #007AD3;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.page-1__content__button-create-akk__text {
+    color: #fff;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+}
+.page-1__content__text-have-akk {
+    display: flex;
+    width: 100%;
+    background: #007bd300;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.page-1__content__text-have-akk-text {
+    margin: 0;
+}
+
+.page-1__content__text-have-akk__bands {
+    width: 33px;
+    height: 1px;
+    background: #000;
+}
+
+.page-1__content__button-enter {
+    display: flex;
+    width: 100%;
+    height: 51px;
+    background: #ad5d5d00;
+    border: 1px solid #007AD3;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.page-1__content__button-enter__text {
+    margin: auto;
+    color: #007AD3;
+    font-weight: 700;
+}
+
+/* PHONE NUMBER CMS */
+
+.div-ph-num-sms {
+    display: flex;
+    width: 480px;
+    height: 425px;
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 auto;
+}
+.div-ph-num-sms__content {
+    position: absolute;
+    width: 280px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.div-ph-num-sms__main-text {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #42505C;
+    text-align: center;
+    margin: 0;
+}
+.div-ph-num-sms__content__min-text {
+    font-size: 18px;
+    font-family: 'Inter';
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+.div-ph-num-sms__content__list-num {
+    display: flex;
+    width: 100%;
+    height: 36px;
+    margin-top: 20px;
+}
+.div-ph-num-sms__content__list-num__input-num-1 {
+    width: 39px;
+    padding: 15px;
+    margin-right: 9px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    color: #000;
+    opacity: 0.4;
+}
+.div-ph-num-sms__content__buttom-confirm {
+    display: flex;
+    width: 100%;
+    height: 53px;
+    background: #007AD3;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.div-ph-num-sms__content__buttom-confirm__text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin: auto;
+}
+.img-X {
+    width: 26.33px;
+    height: 26.33px;
+    background: url(img/X.svg);
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+}
