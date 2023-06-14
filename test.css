@@ -6,6 +6,11 @@
     height: 0;
   }
 }
+@media (width < 700px) {
+  body {
+    background: red;
+  }
+}
 /*@media(width < 641px) { */
 @media (width < 700px) {
   .page-1-img-pad {
