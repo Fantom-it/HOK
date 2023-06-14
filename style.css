@@ -1,8 +1,8 @@
- /* page-1 0101010101101010101010101010101011010101010101010101010001011011101010100110101101001011110101010101101111101010101011110110110101110101110 */  
+/* page-1 0101010101101010101010101010101011010101010101010101010001011011101010100110101101001011110101010101101111101010101011110110110101110101110 */  
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
 body {
     background: #F5F5F5;
-    
+    margin-left: 0;
 }
 .page-1 {
     display: flex;
@@ -11,16 +11,64 @@ body {
     background: #fff;
     margin: 0 auto;
 }
+@media(width < 1280px) {
+    .page-1 {
+        width: 99.99%;
+    }
+    .page-1-img {
+        height: 100%;
+    }
+}
+/*@media(width < 641px) { */
+    @media(width < 700px) {
+    .page-1 {
+        display: block;
+        width: 99.99%;
+        height: 881px;
+    }
+}
+/*@media(width < 641px) { */
+    @media(width < 700px) {
+    .page-1-img {
+       display: none;
+    }
+}
+/*@media(width < 641px) { */
+    @media(width < 700px) {
+    .page-1-img-pad {
+       display: block !important;
+       width: 99.99%;
+    }
+}
+.page-1-img-pad {
+    display: none;
+}
 .page-1__content {
     width: 280px;
     margin: auto;
     font-family: 'Roboto';
+}
+/*@media(width < 641px) { */
+    @media(width < 700px) {
+    .page-1__content {
+        margin-top: 30px;
+    }
+}
+@media(width < 445px) {
+    .page-1__content {
+        width: 300px;
+    }
 }
 .page-1__content__text-registration {
     font-size: 36px;
     font-weight: 700;
     margin: 0;
     color: #42505C;
+}
+@media(width < 445px) {
+    .page-1__content__text-registration {
+        margin: 0 auto;
+    }
 }
 .page-1__content__text-name,
 .page-1__content__text-tel-num,
@@ -33,7 +81,8 @@ body {
 }
 .page-1__content__name-input,
 .page-1__content__tele-num-input,
-.page-1__content__password-input {
+.page-1__content__password-input,
+.page-1__content__name-input-red {
     color: #D1D1D1;
     color: #000000;
     opacity: 0.4;
@@ -44,6 +93,22 @@ body {
     border-radius: 5px;
     margin-top: 10px;
     font-size: 14px;
+}
+.page-1__content__name-input-long,
+.page-1__content__name-input-long-red {
+    color: #D1D1D1;
+    color: #000000;
+    opacity: 0.4;
+    width: 296px;
+    padding: 0;
+    padding: 11px 20px 11px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.page-1__content__name-input-long-red {
+    background: #FFDFDF;
 }
 .page-1__content__password-input:focus{
     color: rgb(0, 0, 0);
@@ -213,4 +278,39 @@ body {
     font-weight: 400;
     font-family: 'Inter';
     text-align: center;
+}
+.personal-acc-main-page {
+    width: 997px;
+    height: 889px;
+    background: #fff;
+    margin: 0 auto;
+}
+.personal-acc-main-page__content {
+    position: absolute;
+    margin: 0;
+    margin-left: 158px;
+    margin-top: 46px;
+    white-space: nowrap;
+}
+.personal-acc-main-page__content__main-text {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #42505C;
+    margin: 0;
+}
+.personal-acc-main-page__content__div-2 {
+    margin-left: 10px;
+}
+.personal-acc-main-page__content__avatar {
+    display: flex;
+    width: 92px;
+    height: 92px;
+    background: #007AD3;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 48px;
+}
+.personal-acc-main-page__content__avatar {
+    margin: auto;
 }
