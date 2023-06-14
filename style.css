@@ -42,7 +42,10 @@ body {
 /*@media(width < 641px) { */
     @media(width < 700px) {
     .page-1-img {
-       display: none;
+      /* display: none; */
+      width: 0;
+      height: 0;
+       
     }
 }
 /*@media(width < 641px) { */
