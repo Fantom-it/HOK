@@ -7,6 +7,10 @@
   }
 }
 
+body {
+  display: flex;
+}
+
 @media -webkit-full-scree (nwidth < 700px) {
 }
 .page-1-img {
