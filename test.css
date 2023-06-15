@@ -31,21 +31,16 @@ width: 100%;
 }
 .page-1-img-pad {
   display: block;
-<<<<<<< HEAD
   margin: 0 auto;
-=======
   width: 99.99%;
->>>>>>> 157bb6dc1d9fbd5b115de941c31fc5b4c6d0a792
+
 }
 .page-1__content {
   width: 280px;
   margin: auto;
   font-family: "Roboto";
-<<<<<<< HEAD
   margin-top: 30px;
-=======
   margin-top: 20px;
->>>>>>> 157bb6dc1d9fbd5b115de941c31fc5b4c6d0a792
 }
 /*@media(width < 641px) { */
 @media (width < 700px) {
