@@ -30,6 +30,7 @@ body {
 }
 .page-1-img-pad {
   display: block;
+  width: 99.99%;
 }
 .page-1__content {
   width: 280px;
