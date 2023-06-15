@@ -60,7 +60,7 @@ body {
     }
 }
 .page-1-img-pad {
-   display: block;
+   display: none;
 }
 .page-1__content {
     width: 280px;
