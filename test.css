@@ -24,7 +24,7 @@
   }
 }
 .page-1-img-pad {
-  display: none;
+  display: block;
 }
 .page-1__content {
   width: 280px;
