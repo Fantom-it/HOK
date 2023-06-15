@@ -9,6 +9,7 @@
 
 body {
   display: flex;
+  margin: 0;
 }
 
 @media -webkit-full-scree (nwidth < 700px) {
