@@ -29,6 +29,7 @@
   width: 280px;
   margin: auto;
   font-family: "Roboto";
+  margin: 0 auto;
 }
 /*@media(width < 641px) { */
 @media (width < 700px) {
