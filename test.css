@@ -28,6 +28,7 @@ body {
 }
 .page-1-img-pad {
   display: block;
+  margin: 0 auto;
 }
 .page-1__content {
   width: 280px;
