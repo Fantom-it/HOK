@@ -6,9 +6,7 @@
     height: 0;
   }
 }
-
 body {
-  display: flex;
   margin: 0;
 }
 
@@ -30,11 +28,13 @@ body {
 }
 .page-1-img-pad {
   display: block;
+  margin: 0 auto;
 }
 .page-1__content {
   width: 280px;
   margin: auto;
   font-family: "Roboto";
+  margin-top: 30px;
 }
 /*@media(width < 641px) { */
 @media (width < 700px) {
@@ -50,7 +50,7 @@ body {
 .page-1__content__text-registration {
   font-size: 36px;
   font-weight: 700;
-  margin: 0;
+  margin: 0 auto;
   color: #42505c;
 }
 @media (width < 445px) {
