@@ -11,6 +11,9 @@ body {
   display: flex;
   margin: 0;
 }
+.page-1 {
+width: 100%;
+}
 
 @media -webkit-full-scree (nwidth < 700px) {
 }
