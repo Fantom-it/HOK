@@ -19,7 +19,8 @@ body {
     width: 1279px;
     height: 720px;
     background: #fff;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 15px;
 }
 @media(width < 1280px) {
     .page-1 {
