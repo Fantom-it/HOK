@@ -24,6 +24,9 @@ body {
     margin-bottom: auto;
    
 }
+.page-1-img {
+        height: 100%;
+    }
 @media(width < 1280px) {
     .page-1 {
        /* width: 99.99%; */
