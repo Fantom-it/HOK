@@ -19,7 +19,7 @@ body {
     width: 1279px;
     height: 720px;
     background: #fff;
-    margin: 0 auto;
+    margin: auto;
 }
 @media(width < 1280px) {
     .page-1 {
