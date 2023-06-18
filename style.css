@@ -17,10 +17,11 @@ body {
 .page-1 {
     display: flex;
     width: 1279px;
+    width: 100%;
     height: 720px;
-   
     background: #fff;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
    
 }
 @media(width < 1280px) {
