@@ -363,3 +363,19 @@ width: 100%;
   color: #fff;
   margin: auto;
 }
+.button-glaz {
+  position: absolute;
+  width: 27px;
+  height: 20px;
+  margin-left: -40px;
+  margin-top: 18px;
+  z-index: 4;
+  border: none;
+  background: url(img/glaz-none.svg);
+}
+.show-button-glaz {
+  background: url(img/glaz.svg);
+}
+.input-pass-div {
+  align-items: center;
+}
