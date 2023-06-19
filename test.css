@@ -373,6 +373,16 @@ width: 100%;
   border: none;
   background: url(img/glaz-none.svg);
 }
+.button-glaz-right {
+  position: absolute;
+  width: 27px;
+  height: 20px;
+  margin-left: 40px;
+  margin-top: 18px;
+  z-index: 4;
+  border: none;
+  background: url(img/glaz-none.svg);
+}
 .show-button-glaz {
   background: url(img/glaz.svg);
 }
